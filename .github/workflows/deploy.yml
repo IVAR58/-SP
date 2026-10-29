@@ -21,8 +21,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Grant Permissions
+        run: chmod +x ./node_modules/.bin/*
+
       - name: Build Project
-        run: ./node_modules/.bin/vite build
+        run: npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
