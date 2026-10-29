@@ -5,7 +5,7 @@ import { ClubStatusBadge } from './ClubStatusBadge';
 
 const HERO_VIDEO_SRC = 'https://videos.pexels.com/video-files/6012385/6012385-hd_1920_1080_25fps.mp4';
 const HERO_VIDEO_SRC_MOBILE = 'https://videos.pexels.com/video-files/6012385/6012385-hd_1280_720_25fps.mp4';
-const HERO_POSTER = '/images/pool-panorama.jpg';
+const HERO_POSTER = 'images/pool-panorama.jpg';
 
 interface HeroProps {
   onOpenBooking: (title?: string, category?: string) => void;

@@ -29,7 +29,7 @@ export function KidsSection({ onOpenBooking }: KidsSectionProps) {
           <Reveal className="lg:col-span-7">
             <div className="relative img-zoom rounded-[28px] overflow-hidden border border-white/10">
               <img
-                src="/images/pool-training.jpg"
+                src="images/pool-training.jpg"
                 alt="Детская тренировка по плаванию у борта бассейна — ГалаСпорт"
                 className="w-full h-[300px] sm:h-[460px] object-cover"
                 loading="lazy"

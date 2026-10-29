@@ -73,7 +73,7 @@ export function PoolSection({ onOpenBooking }: PoolSectionProps) {
           <div className="lg:col-span-7 relative">
             <Reveal className="img-zoom relative rounded-[28px] overflow-hidden border border-white/10" delay={100}>
               <img
-                src="/images/pool-lanes.jpg"
+                src="images/pool-lanes.jpg"
                 alt="Дорожки бассейна 21 метр в фитнес-клубе ГалаСпорт, Всеволожск"
                 className="w-full h-[380px] sm:h-[520px] object-cover"
                 loading="lazy"
@@ -95,7 +95,7 @@ export function PoolSection({ onOpenBooking }: PoolSectionProps) {
               delay={260}
             >
               <img
-                src="/images/pool-training.jpg"
+                src="images/pool-training.jpg"
                 alt="Занятие по плаванию у борта бассейна с тренером — ГалаСпорт"
                 className="w-full h-[220px] sm:h-[260px] object-cover"
                 loading="lazy"
@@ -116,7 +116,7 @@ export function PoolSection({ onOpenBooking }: PoolSectionProps) {
         <Reveal delay={100} className="mt-20 sm:mt-32">
           <figure className="img-zoom relative rounded-[28px] overflow-hidden border border-white/10">
             <img
-              src="/images/pool-panorama.jpg"
+              src="images/pool-panorama.jpg"
               alt="Панорама бассейна фитнес-клуба ГалаСпорт — зона отдыха у воды, шезлонги"
               className="w-full h-[340px] sm:h-[520px] lg:h-[560px] object-cover"
               loading="lazy"
